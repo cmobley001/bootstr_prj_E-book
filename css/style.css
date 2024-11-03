@@ -1,4 +1,29 @@
-body {
-  background-color: #ecf0f1;
-  color: #3498db;
+.navbar .btn-outline-light:hover {
+  color: #333;
+}
+
+.header {
+  background: url("../images/header-background.jpg") no-repeat center center/cover;
+}
+
+.sticky-dark {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+/* .modal-dialog {
+  max-width: 1040px;
+} */
+@media (max-width: 960px) {
+  .hero .image-conta iner {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
 }

@@ -1,9 +1,30 @@
-$primary-color: #3498db;
-// $secondary-color: #2ecc71;
-$accent-color: #e74c3c;
-$background-color: #ecf0f1;
+.navbar .btn-outline-light:hover {
+  color: #333;
+}
+.header {
+  background: url("../images/header-background.jpg") no-repeat center
+    center/cover;
+}
+// add opacity to scrolling navbar
+.sticky-dark {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+// for sticky navbar scroll easing
+.navbar {
+  transition: all 0.3s ease;
+}
+// use this to make the modal wider
+/* .modal-dialog {
+  max-width: 1040px;
+} */
 
-body {
-  background-color: $background-color;
-  color: $primary-color;
+@media (max-width: 960px) {
+  .hero .image-conta iner {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
 }
