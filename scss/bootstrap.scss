@@ -41,6 +41,7 @@ $spacers: (
 ) !default;
 
 $headings-margin-bottom: $spacer * 1;
+$enable-negative-margins: true;
 
 /* *** custom BS code above this line *** */
 @import "../node_modules/bootstrap/scss/bootstrap";

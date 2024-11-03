@@ -18,7 +18,10 @@
 /* .modal-dialog {
   max-width: 1040px;
 } */
-
+.download {
+  background: url("../images/download-background.jpg") no-repeat center
+    center/cover;
+}
 @media (max-width: 960px) {
   .hero .image-conta iner {
     display: flex;
